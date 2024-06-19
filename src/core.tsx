@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useRef, useEffect, useState, useCallback } from 'react';
 import { bind, clear } from 'size-sensor';
 import { pick } from './helper/pick';
@@ -10,7 +12,6 @@ import { EChartsReactProps, EChartsInstance } from './types';
  * core component for echarts binding
  */
 const EChartsReactCore: React.FC<EChartsReactProps> = (props) => {
-  'use client';
   const {
     echarts,
     shouldSetOption,
