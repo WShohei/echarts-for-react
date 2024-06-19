@@ -1,3 +1,4 @@
+'use client';
 import { __assign } from "tslib";
 import React, { useRef, useEffect, useState, useCallback } from 'react';
 import { bind, clear } from 'size-sensor';
@@ -9,7 +10,6 @@ import { isEqual } from './helper/is-equal';
  * core component for echarts binding
  */
 var EChartsReactCore = function (props) {
-    'use client';
     var echarts = props.echarts, shouldSetOption = props.shouldSetOption, theme = props.theme, opts = props.opts, onEvents = props.onEvents, onChartReady = props.onChartReady, option = props.option, _a = props.notMerge, notMerge = _a === void 0 ? false : _a, _b = props.lazyUpdate, lazyUpdate = _b === void 0 ? false : _b, showLoading = props.showLoading, _c = props.loadingOption, loadingOption = _c === void 0 ? null : _c, style = props.style, _d = props.className, className = _d === void 0 ? '' : _d;
     var eleRef = useRef(null);
     var isInitialResizeRef = useRef(true);
