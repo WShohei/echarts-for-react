@@ -1,6 +1,5 @@
+import React from 'react';
 import { EChartsReactProps, EChartsOption, EChartsInstance } from './types';
-import EChartsReactCore from './core';
 export { EChartsReactProps, EChartsOption, EChartsInstance };
-export default class EChartsReact extends EChartsReactCore {
-    constructor(props: EChartsReactProps);
-}
+declare const EChartsReact: React.FC<EChartsReactProps>;
+export default EChartsReact;

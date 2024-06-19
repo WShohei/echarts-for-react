@@ -1,14 +1,14 @@
 import { CSSProperties } from 'react';
-export declare type EChartsOption = any;
-export declare type EChartsInstance = any;
-export declare type Opts = {
+export type EChartsOption = any;
+export type EChartsInstance = any;
+export type Opts = {
     readonly devicePixelRatio?: number;
     readonly renderer?: 'canvas' | 'svg';
     readonly width?: number | null | undefined | 'auto';
     readonly height?: number | null | undefined | 'auto';
     readonly locale?: string;
 };
-export declare type EChartsReactProps = {
+export type EChartsReactProps = {
     /**
      * echarts library entry, use it for import necessary.
      */

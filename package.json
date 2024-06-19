@@ -1,5 +1,6 @@
 {
   "name": "echarts-for-react",
+  "type": "module",
   "version": "3.0.2",
   "description": " Apache Echarts components for React.",
   "main": "lib/index.js",
