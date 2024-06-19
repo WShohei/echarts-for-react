@@ -1,3 +1,4 @@
+'use client';
 import { __assign } from "tslib";
 import React from 'react';
 import * as echarts from 'echarts';

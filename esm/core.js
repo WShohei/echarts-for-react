@@ -1,4 +1,3 @@
-'use client';
 import { __assign } from "tslib";
 import React, { useRef, useEffect, useState, useCallback } from 'react';
 import { bind, clear } from 'size-sensor';

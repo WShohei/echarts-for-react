@@ -1,5 +1,3 @@
-'use client';
-
 import React, { useRef, useEffect, useState, useCallback } from 'react';
 import { bind, clear } from 'size-sensor';
 import { pick } from './helper/pick';
